@@ -1,0 +1,230 @@
+/* BODY STYLE */
+
+.alert {
+    position: fixed;
+    width: 80%;
+    z-index: 100;
+    right: 0;
+  }
+
+.ts-intro .ts-title {
+    text-transform: uppercase;
+    color: #2ed22e !important;
+    font-size: 22px;
+}
+
+#osor {
+    font-size: 22px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #2ed22e;
+}
+
+.banner-title {
+    line-height: 0.8 !important;
+    margin-bottom: 20px !important;
+}
+
+.banner-info {
+    font-style: normal !important;
+    line-height: 0.9 !important;
+}
+
+.section-title.white:after,
+.column-title.white:after {
+    background-image: url(../images/shap/title-white.png) !important;
+}
+
+.ts-sponsors.sponsors-border .sponsors-wrap {
+    border-bottom: none !important;
+}
+
+.section-title::after,
+.column-title::after {
+    background-image: url(../images/shap/title-blue.png);
+}
+
+.direction-tabs h3 {
+    color: #001C73 !important;
+}
+
+.ts-schedule-nav ul li a.active,
+.schedule-listing .schedule-slot-time {
+    background: #004EFF !important;
+}
+
+.ts-schedule-nav ul li a::before {
+    border-color: transparent #004EFF transparent transparent;
+}
+
+.ts-map-tabs ul li a::before {
+    border: 2px solid #001C73;
+    background: #001C73;
+}
+
+.date-venue {
+    color: #fff !important;
+}
+
+
+.ts-map-tabs ul li a {
+    border-bottom: 2px solid #fff;
+}
+
+.ts-map-tabs ul li a.active {
+    color: #001C73 !important;
+    border-color: #001C73;
+}
+
+.ts-map-tabs ul li a,
+.direction-tabs-content p {
+    color: #001C73;
+}
+
+.about-intro-text i {
+    font-size: 64px;
+    margin-bottom: 20px;
+    display: block;
+    background: -moz-linear-gradient(top, #004EFF 0%, #001C73 100%);
+    background: -webkit-linear-gradient(top, #004EFF 0%, #001C73 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#004EFF), to(#001C73));
+    background: -o-linear-gradient(top, #004EFF 0%, #001C73 100%);
+    background: linear-gradient(to bottom, #004EFF 0%, #001C73 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ts-event-outcome::before {
+    background-image: url(../images/banner/leanr_bg1.png);
+}
+
+.ts-event-outcome .outcome-content .column-title {
+    color: #fff;
+    font-weight: bolder;
+}
+
+.ts-speaker:hover .ts-title a {
+    color: #2ed22e;
+}
+
+.ts-speaker .speaker-img::before {
+    background: rgba(46, 210, 46, 0.5);
+}
+
+.single-intro-text .count-number {
+    background: #2ed22e;
+}
+
+.single-contact-feature {
+    height: 200px;
+}
+
+.single-intro-text i {
+    font-size: 64px;
+    margin-bottom: 20px;
+    display: block;
+    background: -moz-linear-gradient(top, #2ed22e 0%, #2ed22e 100%);
+    background: -webkit-linear-gradient(top, #2ed22e 0%, #2ed22e 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#2ed22e), to(#2ed22e));
+    background: -o-linear-gradient(top, #2ed22e 0%, #2ed22e 100%);
+    background: linear-gradient(to bottom, #2ed22e 0%, #2ed22e 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.post-meta-date {
+    color: #2ed22e !important;
+}
+
+.header .navbar-light .navbar-toggler {
+    background: #2ed22e;
+    color: #fff;
+    border-color: #2ed22e;
+}
+
+.header ul.navbar-nav li .dropdown-menu li a:hover {
+    color: #2ed22e;
+}
+
+.post-body .entry-title {
+    height: 70px;
+}
+
+.entry-content {
+    height: 200px;
+}
+
+
+.page {
+    padding: 4em;
+    max-width: 1100px;
+    color: #777;
+    font-family: sans-serif;
+    line-height: 1.15;
+}
+
+.archive {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1em;
+}
+
+.article {
+    padding: 2em;
+    background: #fff;
+    box-shadow:
+        0 5px 10px rgba(0, 0, 0, 0.1),
+        0 20px 20px rgba(0, 0, 0, 0.05);
+}
+
+.article img{
+    max-width: 100%;
+}
+
+.article p{
+   font-size: 14px; 
+   height: 110px;
+}
+
+.article a{
+    color: #fff !important;
+ }
+
+.article h2{
+    font-size: 20px;
+    line-height: 1;
+    padding: 15px 0px 0px 0px;
+    height: 65px;
+ }
+
+ @media (max-width: 680px) {
+    .archive {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .page{
+        padding: 2em;
+    }
+ }  
+
+/* speaker part */
+
+.ts-speaker-popup-content p {
+    color: #888888 !important;
+}
+
+.speakder-designation {
+    color: #000;
+}
+
+/* speaker part end*/
+
+/* BODY STYLE END */

@@ -1,0 +1,30 @@
+[28-Feb-2020 10:05:38 America/New_York] PHP Fatal error:  Uncaught Swift_TransportException: Connection could not be established with host smtp.gmail.com :stream_socket_client(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) in /home/meshwqob/ss20.meshdesignstudios.com/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:269
+Stack trace:
+#0 [internal function]: Swift_Transport_StreamBuffer->{closure}(2, 'stream_socket_c...', '/home/meshwqob/...', 272, Array)
+#1 /home/meshwqob/ss20.meshdesignstudios.com/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(272): stream_socket_client('ssl://smtp.gmai...', 101, 'Network is unre...', 30, 4, Resource id #51)
+#2 /home/meshwqob/ss20.meshdesignstudios.com/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(58): Swift_Transport_StreamBuffer->establishSocketConnection()
+#3 /home/meshwqob/ss20.meshdesignstudios.com/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(143): Swift_Transport_StreamBuffer-> in /home/meshwqob/ss20.meshdesignstudios.com/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 269
+[28-Feb-2020 10:07:39 America/New_York] PHP Fatal error:  Uncaught Swift_TransportException: Connection could not be established with host smtp.gmail.com :stream_socket_client(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) in /home/meshwqob/ss20.meshdesignstudios.com/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:269
+Stack trace:
+#0 [internal function]: Swift_Transport_StreamBuffer->{closure}(2, 'stream_socket_c...', '/home/meshwqob/...', 272, Array)
+#1 /home/meshwqob/ss20.meshdesignstudios.com/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(272): stream_socket_client('ssl://smtp.gmai...', 101, 'Network is unre...', 30, 4, Resource id #51)
+#2 /home/meshwqob/ss20.meshdesignstudios.com/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(58): Swift_Transport_StreamBuffer->establishSocketConnection()
+#3 /home/meshwqob/ss20.meshdesignstudios.com/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(143): Swift_Transport_StreamBuffer-> in /home/meshwqob/ss20.meshdesignstudios.com/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 269
+[28-Feb-2020 10:11:48 America/New_York] PHP Fatal error:  Uncaught Swift_TransportException: Connection could not be established with host smtp.gmail.com :stream_socket_client(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) in /home/meshwqob/ss20.meshdesignstudios.com/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:269
+Stack trace:
+#0 [internal function]: Swift_Transport_StreamBuffer->{closure}(2, 'stream_socket_c...', '/home/meshwqob/...', 272, Array)
+#1 /home/meshwqob/ss20.meshdesignstudios.com/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(272): stream_socket_client('ssl://smtp.gmai...', 101, 'Network is unre...', 30, 4, Resource id #51)
+#2 /home/meshwqob/ss20.meshdesignstudios.com/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(58): Swift_Transport_StreamBuffer->establishSocketConnection()
+#3 /home/meshwqob/ss20.meshdesignstudios.com/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(143): Swift_Transport_StreamBuffer-> in /home/meshwqob/ss20.meshdesignstudios.com/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 269
+[28-Feb-2020 10:21:14 America/New_York] PHP Fatal error:  Uncaught Swift_TransportException: Connection could not be established with host smtp.gmail.com :stream_socket_client(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) in /home/meshwqob/ss20.meshdesignstudios.com/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:269
+Stack trace:
+#0 [internal function]: Swift_Transport_StreamBuffer->{closure}(2, 'stream_socket_c...', '/home/meshwqob/...', 272, Array)
+#1 /home/meshwqob/ss20.meshdesignstudios.com/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(272): stream_socket_client('ssl://smtp.gmai...', 101, 'Network is unre...', 30, 4, Resource id #51)
+#2 /home/meshwqob/ss20.meshdesignstudios.com/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(58): Swift_Transport_StreamBuffer->establishSocketConnection()
+#3 /home/meshwqob/ss20.meshdesignstudios.com/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(143): Swift_Transport_StreamBuffer-> in /home/meshwqob/ss20.meshdesignstudios.com/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 269
+[28-Feb-2020 10:30:45 America/New_York] PHP Fatal error:  Uncaught Swift_TransportException: Connection could not be established with host smtp.gmail.com :stream_socket_client(): unable to connect to ssl://smtp.gmail.com:465 (Network is unreachable) in /home/meshwqob/ss20.meshdesignstudios.com/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:269
+Stack trace:
+#0 [internal function]: Swift_Transport_StreamBuffer->{closure}(2, 'stream_socket_c...', '/home/meshwqob/...', 272, Array)
+#1 /home/meshwqob/ss20.meshdesignstudios.com/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(272): stream_socket_client('ssl://smtp.gmai...', 101, 'Network is unre...', 30, 4, Resource id #51)
+#2 /home/meshwqob/ss20.meshdesignstudios.com/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(58): Swift_Transport_StreamBuffer->establishSocketConnection()
+#3 /home/meshwqob/ss20.meshdesignstudios.com/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(143): Swift_Transport_StreamBuffer-> in /home/meshwqob/ss20.meshdesignstudios.com/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 269
